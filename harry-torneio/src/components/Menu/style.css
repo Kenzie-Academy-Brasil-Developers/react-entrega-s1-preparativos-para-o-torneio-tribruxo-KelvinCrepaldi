@@ -1,0 +1,61 @@
+h1,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+.menu-container {
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  border: 1px solid black;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.712);
+  width: 300px;
+}
+
+.menu-container h1 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.menu-container p {
+  font-size: 15px;
+  width: 100%;
+}
+
+.menu-container-button {
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin: 20px;
+
+  border: none;
+  background-color: rgb(21, 21, 53);
+  color: #fff;
+}
+
+@media screen and (min-width: 1000px) {
+  .menu-container {
+    width: 600px;
+    height: 300px;
+  }
+
+  .menu-container h1 {
+    font-size: 50px;
+    margin: 20px;
+  }
+
+  .menu-container p {
+    font-size: 25px;
+  }
+
+  .menu-container-button {
+    font-size: 17px;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+  }
+}

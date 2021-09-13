@@ -1,0 +1,53 @@
+.App-header {
+  background-color: #000000;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.button {
+  border-radius: 10px;
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+  border: none;
+  background-color: rgba(21, 21, 53, 0.788);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.212);
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+  .App-header {
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .App-header {
+    background-image: url(./din.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
